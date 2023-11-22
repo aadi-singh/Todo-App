@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 144, 144);
+
+}
+
+.App{
+    margin-top: 140px;
+    display: flex;
+
+    
+    
+}
+.InnerApp{
+  
+    justify-content: center;
+    background-color: bisque;
+    width: 850px;
+    height: 850px;
+    
+    border-radius: 12px;
+   
+}
+.InvisibleDiv{
+    position: relative;
+    top:80px;
+}
+
+#todo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+}
+#todoInput{
+    height: 30px;
+       width: 350px;
+       border-radius: 6px;
+}
+
+
+#inputAndButton{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#addTodo{
+   width: 180px;
+   font-size: large;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 9px;
+}
